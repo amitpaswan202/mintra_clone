@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+.progress_container{
+    width: 50%;
+    height: 20px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 12px;
+}
+.progress_bar{
+    
+    height: 100%;
+    background-color: brown;
+    border-radius: 12px;
+    animation: progress-bar 5s 5;
+  
+}
+@keyframes progress-bar {
+    from{
+  width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
